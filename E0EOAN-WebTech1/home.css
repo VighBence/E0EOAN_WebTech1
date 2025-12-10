@@ -1,0 +1,65 @@
+.topnav {
+    width: 100%;
+    line-height: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-color: black ;
+    text-align: center;
+}
+
+.topnav span {
+    float: none;
+    color: #e0b113;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 0.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+  
+.topnav span:hover {
+    color: #947204;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.E33 {
+    height: 450px;
+    width: 800px;
+    border: 1px solid #e0b113;
+}
+
+.M1 {
+    height: 600px;
+    width: 450px;
+    border: 1px solid #e0b113;
+}
+
+.M2 {
+    height: 800px;
+    width: 490px;
+    border: 1px solid #e0b113;
+}
+
+.Gus {
+    height: 450px;
+    width: 800px;
+    border: 1px solid #e0b113;
+}
+
+td {
+    text-align: center;
+}

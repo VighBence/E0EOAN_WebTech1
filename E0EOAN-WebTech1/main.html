@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+
+    <!--Load an icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Clair Obscure: Expedition 33</title>
+    <link rel="stylesheet" href="home.css">
+
+    <style>
+
+    body {
+        background-color: black;  
+        background-image: url("main/PetalsA.avif");
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: opacity .5s;
+    }
+
+    table, td, th{
+        text-align: center;
+    }
+    </style>
+</head>
+
+
+<script>
+
+    window.transitionToPage = function(href) {
+    document.querySelector('body').style.opacity = 0
+    setTimeout(function() { 
+        window.location.href = href
+    }, 500)
+}
+
+document.addEventListener('DOMContentLoaded', function(event) {
+    document.querySelector('body').style.opacity = 1
+})
+
+</script>
+
+
+<body>
+    <!--Horizontal Navigation Bar-->
+        <div class="topnav">
+            <span onclick="transitionToPage('file:///E:/Downloads/WebTech1-main/main.html')">Home</span>
+            <span onclick="transitionToPage('file:///E:/Downloads/WebTech1-main/ATG.html')">About the Game</span>
+            <span onclick="transitionToPage('file:///E:/Downloads/WebTech1-main/characters.html')">Characters</span>
+            <span onclick="transitionToPage('file:///E:/Downloads/WebTech1-main/UVP.html')">Une vie à peindre</span>
+            <span onclick="transitionToPage('file:///E:/Downloads/WebTech1-main/profile.html')"><i class="fa fa-fw fa-user"></i></span>
+        </div>
+
+
+        <table class="center">
+
+            <tr>
+                <td colspan="2">
+			<a href="https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/"><img src="main/Clair-Obscur-Plush-Logo.png" alt="logo"></a>
+		</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a> <img class="E33" src="main/Expedition 33.png" alt="Expedition33"> </a>
+                </td>
+                <td>
+                    <a> <img class="M1" src="main/MaelleA.png" alt="Maelle1"> </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a> <img class="M2" src="main/MaelleB.png" alt="Maelle2"> </a>
+                </td>
+                <td>
+                    <a> <img class="Gus" src="main/Gustave.png" alt="Gustave"> </a>
+                </td>
+            </tr>
+</body>
+</html>
